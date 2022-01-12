@@ -5,7 +5,7 @@ export default class Create extends React.Component{
         name:"ReactJS",
         gender:"Female",
         year:2022,
-        employee:[{id:1,name:"murvez"},{id:2,name:"bhanu"}]
+        employee:[{id:1,name:"shamini"},{id:2,name:"bhanu"}]
     }
     render(){
         console.log(this.state)
