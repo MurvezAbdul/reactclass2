@@ -8,6 +8,7 @@ export default class Create extends React.Component{
         employee:[{id:1,name:"shamini"},{id:2,name:"bhanu"}]
     }
     render(){
+        alert();
         console.log(this.state)
         return(
             <div>
