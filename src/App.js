@@ -1,4 +1,6 @@
-import Constructor from './Constructor'
+
+import Array from './Array'
+import Events from './components/Events'
 
 function App(){
   return(
@@ -7,7 +9,10 @@ function App(){
     <Fun name="bhanu" age="23" />
     <Fun name="rizwana" age="24" />
     <Fun name="shamini" age="25" /> */}
-    <Constructor/>
+    
+    {/* <Array name="murvez" age="22" />  */}
+    <Events/>
+  
     </div>
   );
   }
