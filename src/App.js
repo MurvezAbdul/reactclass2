@@ -2,6 +2,7 @@
 import Array from './Array'
 import Events from './components/Events'
 import Input from './components/Input'
+import Regular from './components/Regular';
 
 function App(){
   return(
@@ -14,7 +15,8 @@ function App(){
     {/* <Array name="murvez" age="22" />  */}
     {/* <Events/> */}
 
-    <Input/>
+    {/* <Input/> */}
+    <Regular/>
   
     </div>
   );
